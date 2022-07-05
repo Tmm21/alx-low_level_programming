@@ -3,14 +3,14 @@
  * main-program that print the alphabet in lowercase followed by a new line
  * Return:0
  */
-void main(void)
+void print_alphabet(void)
 {
-int l = 'a';
+char l = 'a';
 while (l <= 'z')
 {
-Putchar(l);
+putchar(l);
 l += 1;
 }
 putchar('\n');
-return (0);
+return;
 }
