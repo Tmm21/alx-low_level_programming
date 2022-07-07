@@ -1,35 +1,35 @@
-#include<stdio.h>
-#include <ctype.h>
-#include<stdlib.h>
 #include "main.h"
 
+#include <stdio.h>
+
+
+
 /**
- *_isupper - function to check for lowercase character
- * c:  is the int that will use for the argument of the function
- *    * Return: 0
- */
+ *
+ *  * main - check the code.
+ *
+ *   *
+ *
+ *    * Return: Always 0.
+ *
+ *     */
 
+int main(void)
 
-
-int _isupper ()
 {
-	 char c;
+
+	    char c;
 
 
 
-	     c = 'C';
+	        c = 'A';
 
-	         printf("Return value when uppercase character %c is passed to isupper(): %d", c, isupper(c));
+		    printf("%c: %d\n", c, _isupper(c));
 
+	     	    c = 'a';
 
+			    printf("%c: %d\n", c, _isupper(c));
 
-		     c = '+';
-
-		         printf("\nReturn value when another character %c is passed to is isupper(): %d", c, isupper(c));
-
-
-
-			    return 0;
+			        return (0);
 
 }
-
