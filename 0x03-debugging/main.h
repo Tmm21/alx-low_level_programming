@@ -6,7 +6,7 @@
 
 int _putchar (char c);                                                                                                          
 
-void print_alphabet(void);                                                                                                      
+int positive_or_negative(int);                                                                                                      
 
 void print_alphabet_x10(void);                                                                                                  
 
