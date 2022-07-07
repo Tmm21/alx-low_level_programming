@@ -11,10 +11,9 @@
 
 
 
-int _isupper()
+int _isupper(int c)
 {
-char chr;
-if(chr>= "A" && chr<= "Z")
+if(c >= "A" && c <= "Z")
 {
 return 1;
 }
