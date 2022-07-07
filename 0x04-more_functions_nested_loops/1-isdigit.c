@@ -5,10 +5,9 @@
  * _isdigit - a function
  * Retun - Always 0
  */
-int _isdigit()
+int _isdigit(int c)
 {
-char ch =6;
-if(isdigit(ch))
+if(isdigit(c))
 {
 return 1
 }
