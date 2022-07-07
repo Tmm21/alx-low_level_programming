@@ -6,7 +6,7 @@
 
 int _putchar (char c);                                                                                                          
 
-int positive_or_negative(int);                                                                                                      
+void print_remaining_days(void);                                                                                                      
 
 void print_alphabet_x10(void);                                                                                                  
 
