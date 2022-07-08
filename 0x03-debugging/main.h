@@ -6,7 +6,7 @@
 
 int _putchar (char c);                                                                                                          
 
-void print_remaining_days(void);                                                                                                      
+void print_remaining_days(int month, int day, int year);                                                                                                      
 
 void print_alphabet_x10(void);                                                                                                  
 
